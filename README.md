@@ -7,7 +7,7 @@
 
 
 ## Scripts
-The command line parameters should be quite straightforward and their brief description is available in `eval_sharpness.py` (see `help=...` in `parser.add_argument(...)`). For example, this script evaluates adaptive Linf worst-case sharpness and exports evaluation results in a json file:
+The main script to evaluate sharpness is `eval_sharpness.py` for which you first need to install packages from `requirements.txt`. The command line parameters for `eval_sharpness.py` should be quite straightforward and their brief description is available in `help=...` of `parser.add_argument(...)`. For example, this script evaluates adaptive Linf worst-case sharpness (with logit normalization) and exports evaluation results in a json file:
 ```python
 python eval_sharpness.py --dataset=cifar10 --model=vit_exp --model_width=512 --n_eval_sharpness=1024 --bs_sharpness=128 --rho=0.001 --adaptive --normalize_logits --n_iters=20 --algorithm=m_apgd_linf --log_folder=logs_final_vit_max_linf --model_path="${model_path}"
 ```
