@@ -2,6 +2,8 @@
 
 **Maksym Andriushchenko (EPFL), Francesco Croce (University of Tübingen), Maximilian Müller (University of Tübingen), Matthias Hein (University of Tübingen), Nicolas Flammarion (EPFL)**
 
+**ICML 2023**
+
 **Paper:** [https://arxiv.org/abs/2302.07011](https://arxiv.org/abs/2302.07011)
 <p align="center"><img src="images/summary_slide.png" width="900" /></p>
 
